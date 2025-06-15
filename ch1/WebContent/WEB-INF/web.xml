@@ -21,4 +21,13 @@
     <url-pattern>/Serv1</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>C2dice</servlet-name>
+    <servlet-class>br.com.valdivino.servlet.Ch2Dice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>C2dice</servlet-name>
+    <url-pattern>/Dice</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
